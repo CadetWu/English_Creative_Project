@@ -1,45 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Netlify Site</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>My Netlify Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="home">
-            <p>This is a responsive static site template ready for Netlify.</p>
-            <button id="theme-toggle">Toggle Dark Mode</button>
-        </section>
-        
-        <section id="about">
-            <h2>About</h2>
-            <p>Customize this template with your content.</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <form name="contact" method="POST" data-netlify="true">
-                <input type="hidden" name="form-name" value="contact">
-                <input type="email" name="email" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    
-    <script src="script.js"></script>
+  <main>
+    <h1>It works! 🎉</h1>
+    <p>If you can see this on Netlify, your setup is good.</p>
+    <button id="btn">Click me</button>
+    <p id="status"></p>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

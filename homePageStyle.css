@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  /*Layered Style*/
+  background-image:
+  url("backgroundMOH.jpg");
+  background-repeat:
+    repeat-x,
+    repeat;
+  background-position:
+    top center,
+    center center;
+  background-size:
+    auto,
+    cover;
+  background-attachment:
+    scroll,
+    fixed;
+  background-color: #000; /* fallback */
+}
+
+main {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}

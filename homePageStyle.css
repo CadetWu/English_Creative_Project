@@ -8,7 +8,7 @@ body {
   align-items: center;
   min-height: 100vh;
   
-  /*Layered Style*/
+  /*MOH Picture Background*/
   background-image:
   url("imagesHome/backgroundMOH.jpg");
   background-repeat:
@@ -20,6 +20,24 @@ body {
   background-size:
     auto,
     cover;
+  background-attachment:
+    scroll,
+    fixed;
+  background-color: #000; /* fallback */
+
+  /*Black Background to put stuff*/
+  background-image:
+  url("imagesHome/black.jpg");
+    background-repeat:
+    repeat-x,
+    repeat;
+  background-position:
+    top center,
+    center center;
+  background-size: 50%;
+  background-size: 3.2em;
+  background-size: 12px;
+  background-size: auto;
   background-attachment:
     scroll,
     fixed;

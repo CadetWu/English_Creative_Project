@@ -26,7 +26,7 @@
       width: 80%;
       max-width: 1000px;
       min-height: 500px;
-      background-color: #696969 ;
+      background-color: #9CAF88 ;
       color: white;
       padding: 40px;
       border-radius: 20px;
@@ -61,10 +61,10 @@
     .btn {
       display: inline-block;
       padding: 12px 24px;
-      background-color: #008CBA;
+      background-color: #97C0F4;
       color: white;
       text-decoration: none;
       border-radius: 8px;
-      font-size: 10px;
+      font-size: 12px;
       cursor: pointer;
     }

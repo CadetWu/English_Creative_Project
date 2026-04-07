@@ -2,17 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Netlify Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="homePageStyle.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Background with Center Panel</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero-section {
+      min-height: 100vh;
+      background-image: url("your-image.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .content-box {
+      width: 80%;
+      max-width: 1000px;
+      min-height: 500px;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+      text-align: center;
+    }
+
+    .content-box h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .content-box p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .content-box img {
+      width: 300px;
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <main>
-    <h1>It works! 🎉</h1>
-    <p>If you can see this on Netlify, your setup is good.</p>
-    <button id="btn">Click me</button>
-    <p id="status"></p>
-  </main>
-  <script src="script.js"></script>
+  <section class="hero-section">
+    <div class="content-box">
+      <h1>Your Title Here</h1>
+      <p>This black center section is where you can place your text and pictures.</p>
+      <img src="your-second-image.jpg" alt="Example image">
+    </div>
+  </section>
 </body>
 </html>

@@ -1,32 +1,40 @@
-body {
+/* Reset */
+* {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #000000;
-  color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full-page background */
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  
-  /*MOH Picture Background*/
-  background-image:
-  url("imagesHome/backgroundMOH.jpg"),
-  url("imagesHome/black.jpg");
-  background-repeat:
-    repeat-x,
-    repeat;
-  background-position:
-    top center,
-    center center;
-  background-size:
-    auto,
-    cover;
-  background-attachment:
-    scroll,
-    fixed;
-  background-color: #000; /* fallback */
-
 }
+
+/* Black center box */
+.content-box {
+  width: 80%;
+  max-width: 1000px;
+  min-height: 500px;
+
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+
+  padding: 40px;
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
 main {
   text-align: center;
 }

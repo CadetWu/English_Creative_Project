@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url("your-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.page-overlay {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.content-box {
+  width: 85%;
+  max-width: 1000px;
+  min-height: 70vh;
+  background-color: rgba(0, 0, 0, 0.88);
+  border-radius: 20px;
+  padding: 50px 40px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  color: #d9d9d9;
+}
+
+.info-section {
+  margin-bottom: 40px;
+}
+
+.info-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.placeholder-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.placeholder-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 14px;
+  padding: 25px;
+  width: 280px;
+}
+
+.placeholder-card h2 {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.placeholder-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #e6e6e6;
+}
+
+footer p {
+  font-size: 0.95rem;
+  color: #bfbfbf;
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    width: 95%;
+    padding: 35px 20px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}

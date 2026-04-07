@@ -57,3 +57,14 @@
       font-size: 1.2rem;
       margin-bottom: 20px;
     }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #008CBA;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 10px;
+      cursor: pointer;
+    }

@@ -46,7 +46,8 @@
     }
     
     .content-box img {
-      width: 100px;
+      height: 400px;
+      width: 250px;
       max-width: 100%;
       border-radius: 12px;
       margin-top: 10px;

@@ -10,8 +10,8 @@ body {
   
   /*MOH Picture Background*/
   background-image:
-  url("imagesHome/backgroundMOH.jpg");
-  /*url("imagesHome/black.jpg");*/
+  url("imagesHome/backgroundMOH.jpg"),
+  url("imagesHome/black.jpg");
   background-repeat:
     repeat-x,
     repeat;

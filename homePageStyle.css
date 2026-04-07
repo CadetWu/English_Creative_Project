@@ -10,7 +10,8 @@ body {
   
   /*MOH Picture Background*/
   background-image:
-  url("imagesHome/backgroundMOH.jpg");
+  url("imagesHome/backgroundMOH.jpg"),
+  url("imagesHome/black.jpg");
   background-repeat:
     repeat-x,
     repeat;
@@ -25,23 +26,7 @@ body {
     fixed;
   background-color: #000; /* fallback */
 
-  /*Black Background to put stuff*/
-  background-image:
-  url("imagesHome/black.jpg");
-    background-repeat:
-    repeat-x,
-    repeat;
-  background-position:
-    top center,
-    center center;
-  height: 500px; /* You must set a specified height */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  background-attachment:
-    scroll,
-    fixed;
-  background-color: #000; /* fallback */
 }
-
 main {
   text-align: center;
 }

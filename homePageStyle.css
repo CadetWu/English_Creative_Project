@@ -39,20 +39,20 @@
       margin-bottom: 20px;
     }
 
-    .content-box p {
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-    }
-
-  .content-box h1 {
+    .content-box h2 {
       font-size: 3rem;
       margin-left: 5px;
       margin-bottom: 10px;
     }
-    .richter-box img {
-      position:absolute;
+    .content-box img {
+      position: absolute;
       width: 30px;
       max-width: 100%;
       border-radius: 12px;
       margin-top: 10px;
+    }
+    
+    .content-box p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
     }

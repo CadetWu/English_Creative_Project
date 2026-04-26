@@ -52,7 +52,6 @@ body, html {
   justify-content: center;
   gap: clamp(10px, 3vw, 30px);
   flex-wrap: wrap;
-  margin-bottom: 25px;
 }
 
 .content-box img {
@@ -112,10 +111,3 @@ body, html {
   gap: 10px;
 }
 
-/* Keep your existing container */
-.image-container {
-  display: flex;
-  justify-content: center;
-  gap: clamp(10px, 3vw, 30px);
-  flex-wrap: wrap;
-}

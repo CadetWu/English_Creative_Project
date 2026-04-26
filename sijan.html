@@ -6,6 +6,7 @@
   <title>Anime Wiki Template</title>
   <link rel="stylesheet" href="infoPagesStyles.css" />
 </head>
+<script src="script.js"></script>
 <body>
 
   <main class="page">
@@ -22,10 +23,18 @@
         <div class="grid">
           <div class="wiki-box">
             <h3>Statue</h3>
-            <div class="gallery">
-              <div class="story"><img src="imagesSijan/sijanMemorialDoolittle.jpg" alt=""></div>
-              <div class="story"><img src="imagesSijan/sijanDescription.jpg" alt=""></div>
-            </div>
+            
+            <div class="gallery-wrapper">
+              
+            <button class="nav left" onclick="scrollGallery(-1)">❮</button>
+
+              <div class="gallery">
+                <div class="story"><img src="imagesSijan/sijanMemorialDoolittle.jpg" alt=""></div>
+                <div class="story"><img src="imagesSijan/sijanDescription.jpg" alt=""></div>
+              </div>
+
+            <button class="nav right" onclick="scrollGallery(1)">❯</button>
+
           </div>
 
           <div class="wiki-box">

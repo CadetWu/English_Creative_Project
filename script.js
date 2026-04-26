@@ -1,6 +1,9 @@
-const btn = document.getElementById("btn");
-const status = document.getElementById("status");
+function scrollGallery(direction) {
+  const gallery = document.getElementById("gallery");
+  const width = gallery.clientWidth;
 
-btn?.addEventListener("click", () => {
-  status.textContent = "Button click handled by Netlify‑hosted JS ✅";
-});
+  gallery.scrollBy({
+    left: width * direction,
+    behavior: "smooth"
+  });
+}

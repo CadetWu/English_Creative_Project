@@ -163,11 +163,15 @@ button:hover {
   }
 }
 
+.gallery-wrapper {
+  position: relative;
+}
+
 .gallery {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .gallery img {
@@ -176,4 +180,34 @@ button:hover {
   object-fit: cover;
   flex-shrink: 0;
   scroll-snap-align: start;
+}
+
+/* Buttons */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.nav.left {
+  left: 10px;
+}
+
+.nav.right {
+  right: 10px;
+}
+
+/* Optional: hide on mobile */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
 }

@@ -1,70 +1,36 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  height: 100%;
-  font-family: 'Pacifico', sans-serif;
-}
-
-/* HERO SECTION */
-.hero-section {
-  min-height: 100vh;
-  background-image: url("imagesHome/USAF_Background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: clamp(20px, 5vw, 60px);
-}
-
 /* CONTENT BOX */
 .content-box {
   width: 90%;
   max-width: 1000px;
   min-height: auto;
 
-  background-color: #2F5DA8;
-  color: white;
+  background-color: rgba(10, 24, 48, 0.92);
+  color: #F2F4F7;
 
   padding: clamp(20px, 4vw, 50px);
   border-radius: 20px;
   box-shadow: 0 8px 25px #010101;
 
   text-align: center;
+  border: 2px solid rgba(180, 190, 205, 0.45);
 }
 
 /* HEADINGS */
 .content-box h1 {
   font-size: clamp(1.8rem, 4vw, 3rem);
   margin-bottom: 20px;
+  color: #E8EDF5;
+  text-shadow: 2px 2px 6px #000;
 }
 
-/* IMAGE LAYOUT */
-.image-container {
-  display: flex;
-  justify-content: center;
-  gap: clamp(10px, 3vw, 30px);
-  flex-wrap: wrap;
-}
-
-.content-box img {
-  width: clamp(120px, 20vw, 225px);
-  height: auto;
+/* IMAGE STYLING */
+.card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   border-radius: 12px;
-}
-
-/* BUTTON LAYOUT */
-.button-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  border: 3px solid #B8C0CC;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
 }
 
 /* BUTTON STYLE */
@@ -72,8 +38,8 @@ body, html {
   display: inline-block;
   padding: 12px 18px;
 
-  background-color: #1A2F5B;
-  color: white;
+  background-color: #7A1F2B;
+  color: #F8F8F8;
 
   text-decoration: none;
   border-radius: 8px;
@@ -82,33 +48,10 @@ body, html {
   cursor: pointer;
 
   transition: 0.2s ease;
+  border: 1px solid #C9A24A;
 }
 
 .btn:hover {
-  background-color: #142347;
+  background-color: #9A2A38;
+  color: white;
 }
-
-/* DESKTOP */
-@media (min-width: 900px) {
-  .image-container {
-    flex-wrap: nowrap;
-  }
-}
-
-/* Card controls size */
-.card {
-  width: clamp(140px, 22vw, 240px);  /* dynamic but consistent */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-/* Image styling */
-.card img {
-  width: 100%;
-  aspect-ratio: 4 / 5;   /* keeps all images same shape */
-  object-fit: cover;     /* crops instead of stretching */
-  border-radius: 12px;
-}
-

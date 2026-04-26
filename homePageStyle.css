@@ -30,7 +30,7 @@ body, html {
   max-width: 1000px;
   min-height: auto;
 
-  background-color: #2F5DA8;
+  background-color: rgba(10, 24, 48, 0.85); /* dark blue, 85% opacity */
   color: white;
 
   padding: clamp(20px, 4vw, 50px);

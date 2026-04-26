@@ -73,5 +73,9 @@ div.scroll-container {
 }
 
 div.scroll-container img {
+  display: inline-block;
+  width: auto;
+  height: 200px;
+  margin-right: 10px;
   padding: 10px;
 }

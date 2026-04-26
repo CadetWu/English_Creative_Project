@@ -88,15 +88,6 @@ body, html {
   background-color: #142347;
 }
 
-/* TABLET */
-@media (min-width: 600px) {
-  .button-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 /* DESKTOP */
 @media (min-width: 900px) {
   .image-container {
@@ -104,10 +95,20 @@ body, html {
   }
 }
 
+/* Card controls size */
 .card {
+  width: clamp(140px, 22vw, 240px);  /* dynamic but consistent */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+/* Image styling */
+.card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;   /* keeps all images same shape */
+  object-fit: cover;     /* crops instead of stretching */
+  border-radius: 12px;
 }
 

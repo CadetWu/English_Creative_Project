@@ -17,7 +17,7 @@ body {
   min-height: 220px;
   background:
     linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.15)),
-    url("banner.jpg");
+    url("imagesHome/background2.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 8px 8px 0 0;

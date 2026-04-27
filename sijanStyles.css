@@ -7,6 +7,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(10, 24, 48);
   color: #f5f5f5;
+  background:
+    linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.15)),
+    url("imagesHome/background2.jpg");
 }
 
 .page {
@@ -17,7 +20,7 @@ body {
   min-height: 220px;
   background:
     linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.15)),
-    url("imagesHome/background2.jpg");
+    url("imagesSijan/f-4.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 8px 8px 0 0;
